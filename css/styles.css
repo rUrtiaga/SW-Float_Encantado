@@ -1,0 +1,113 @@
+:root{
+    --main-color: #202672;
+}
+/*
+    Tags 
+*/
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    background-image: url("../images/bottles.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+}
+
+header{
+    top: 0px;
+    background: var(--main-color);
+}
+
+footer{
+    padding: 2em 0 0.5em;
+    background: var(--main-color);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: skyblue
+}
+
+article{
+    background-color: white;
+    padding:0 15px;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+}
+article h2 {
+    font-family: 'Fondamento';
+    padding-top: 50px;
+}
+
+article p {
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+nav{
+    padding: 8px;
+    float: right;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--main-color);
+    border: 1px solid black;
+    padding: 13px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+nav a:hover{
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+
+/*
+    Clases
+*/
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+.centered{
+    margin: 0 auto;
+}
+.main-text{
+    font-size: 3em;
+    font-family: 'Fondamento';
+    width: 50%;
+    color:white
+}
+.clear{
+    clear: both;
+}
+.article-image {
+    float: left;
+    width: 200px;
+    margin: 0 20px 20px 0;
+}
+/*
+    Identificadores
+*/
+#logo{
+    margin:15px 0 20px 0;
+    height: 40px;
+    float: left;
+}
+#image-section{
+    height: 500px;
+}
+
